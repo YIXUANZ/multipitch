@@ -1,4 +1,3 @@
-# multipitch
 <h1 align="center">Speaker-independent Multi-Pitch Tracking in Noisy and Reverberant Scenarios</h1>
 
 This repository provides the code, pretrained models, and a semi-manually labeled test set from the study:
