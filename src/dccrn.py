@@ -89,7 +89,7 @@ class DenseConv2d(nn.Module):
         return out
 
             
-class Net(nn.Module):
+class DCCRN(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
 
