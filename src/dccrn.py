@@ -91,7 +91,7 @@ class DenseConv2d(nn.Module):
             
 class DCCRN(nn.Module):
     def __init__(self):
-        super(Net, self).__init__()
+        super(DCCRN, self).__init__()
 
         self.pstates = 487
 

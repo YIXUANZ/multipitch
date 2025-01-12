@@ -24,9 +24,9 @@ class STFT(nn.Module):
             inverse: stft or istft
         """
         if not inverse:
-            return self.stft(x)
+            return self.stft(X)
         else:
-            return self.istft(x, original_len=original_len)
+            return self.istft(X, original_len=original_len)
 
     def stft(self, x: Tensor) -> Tuple[Tensor, int]:
         """stft
